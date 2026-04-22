@@ -1,7 +1,12 @@
-def hello():
-  """"
-  this is demo 
-  """"
-  return "hello world"
+"""
+This module contains a simple demonstration function.
+"""
 
-hello()
+def hello():
+    """
+    This is a demo function that returns a greeting.
+    """
+    return "hello world"
+
+if __name__ == "__main__":
+    hello()
